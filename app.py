@@ -3,6 +3,8 @@ import streamlit as st
 from calculator import Calculator
 
 st.title("Work Hours Calculator")
+st.title("LOL")
+
 
 weekly_limit = st.slider("Weekly Limit", 48, 54, step=1)
 daily_limit = st.slider("Daily Limit", 9, 13, step=1)
