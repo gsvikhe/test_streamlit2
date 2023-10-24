@@ -6,8 +6,8 @@ st.title("Work Hours Calculator")
 
 
 
-weekly_limit = st.slider("Weekly Limit", 48, 54, step=0.5)
-daily_limit = st.slider("Daily Limit", 9, 13, step=0.5)
+weekly_limit = st.slider("Weekly Limit", 48, 54, step=1)
+daily_limit = st.slider("Daily Limit", 9, 13, step=1)
 
 if st.button("Calculate"):
     calculator = Calculator()
